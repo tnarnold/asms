@@ -45,120 +45,120 @@ echo "O Sistema $NOM ($CL) esta PARADO! Data: $DAT" >> /tmp/$CL.log
       if [ $CNT == 1 ]
        then
         TMP="5 Min"
-        FONE="5196710196" 
+        FONE="" 
         sms 
-        FONE="5196858955"
+        FONE=""
 		sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
 
       if [ $CNT == 3 ]
        then
         TMP="15 Min"
-		FONE="5196710196"
+		FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
 
       if [ $CNT == 6 ]
        then
         TMP="30 Min"
-	FONE="5196710196"
+	FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
 
       if [ $CNT == 9 ]
        then
         TMP="45 Min"
-	FONE="5196710196"
+	FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
      
       if [ $CNT == 12 ]
        then
        TMP="1 Hs"
-	FONE="5196710196"
+	FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
       fi
  
       if [ $CNT == 24 ]
        then
 		TMP="2 Hs"
-		FONE="5196710196"
+		FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
 
       if [ $CNT == 36 ]
        then
        TMP="3 Hs"
-	FONE="5196710196"
+	FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
 
       if [ $CNT == 48 ]
        then
 		TMP="4 Hs"
-		FONE="5196710196"
+	FONE=""
         sms
-        FONE="5196858955"
+        FONE=""
         sms
-        FONE="5198598906"
+        FONE=""
         sms
-        FONE="5198596645"
+        FONE=""
         sms
-        FONE="5198595756"
+        FONE=""
         sms
        fi
 
